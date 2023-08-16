@@ -39,6 +39,10 @@ body {
     margin: 0 5rem 0 5rem;
 }
 
+.hero .btn {
+    margin: 2rem 2rem;
+}
+
 .project-highlights {
     padding: 5%;
     margin-top: -15vh;
