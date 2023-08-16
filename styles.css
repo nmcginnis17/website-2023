@@ -2,7 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .header {
@@ -31,12 +31,40 @@ body {
 .hero h1 {
     font-size: 4rem;
     font-family: 'Cantarell', sans-serif;
-    padding-top: 4rem;
+    padding-top: 10rem;
 }
 
-.hero p {
-    font-size: 1rem;
+.hero h3 {
     font-family: 'Raleway', sans-serif;
     margin: 0 5rem 0 5rem;
+}
+
+.project-highlights {
+    padding: 5%;
+    margin-top: -15vh;
+}
+
+.card {
+    border: 2px solid #000;
+    box-shadow: 0px 5px 5px #888888;
+}
+
+.card-header {
+    position: relative;
+    display: flex;
+}
+
+.card-header image {
+    float: left;
+}
+
+.card-header-text {
+    float: right;
+    padding-left: 1rem;
+}
+
+.card-img-top {
+    max-width: 150px;
+    max-height: 150px;
 }
   
