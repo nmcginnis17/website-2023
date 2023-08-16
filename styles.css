@@ -1,0 +1,42 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #0d004d;
+    height: 80vh;
+}
+
+.nav-item a {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-item a:hover {
+    color: #ae9100;
+}
+
+.nav-item a:visited {
+    color: #fff;
+}
+
+.hero {
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-family: 'Cantarell', sans-serif;
+    padding-top: 4rem;
+}
+
+.hero p {
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 5rem 0 5rem;
+}
+  
