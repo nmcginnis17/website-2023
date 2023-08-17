@@ -3,6 +3,9 @@ body {
     height: 100vh;
     margin: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-stop: always;
 }
 
 .header {
