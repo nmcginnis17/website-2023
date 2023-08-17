@@ -29,10 +29,10 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#projects">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Hire</a>
+                    <a class="nav-link" href="#projects">Hire</a>
                 </li>
             </ul>
         </nav>
@@ -40,7 +40,7 @@
         <div class="hero">
             <h1>Nicholas McGinnis</h1>
             <h3>iOS App & Web Developer</h3>
-            <a href=""><button type="button" class="btn btn-outline-light">View Projects</button></a>
+            <a href=""><button type="button" class="btn btn-outline-*">View Projects</button></a>
         </div>
     </section>
 
@@ -92,6 +92,42 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section id="contactSection">
+        <div class="container-fluid text-center">
+            <h2 class="sectionTitle">Get In Contact</h2>
+            <hr class="underline">
+        </div>
+        <form method="POST" action="https://formspree.io/f/mdorerej">
+            <div class="row text-center">
+                <div class="col-12 col-md-6">
+                    <input type="email" name="_replyto" placeholder="Your email" required>
+                </div>
+                <div class="col-12 col-md-6">
+                    <input type="text" name="_subject" placeholder="Subject" required>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12 col-md-6">
+                    <input type="text" name="_name" placeholder="Full Name" required>
+                </div>
+                <div class="col-12 col-md-6">
+                    <input type="text" name="_phone" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-12">
+                    <textarea name="message" rows="8" cols="140" class="form-control textarea-input"  placeholder="Your message" required> </textarea>
+                </div>
+            </div>
+            <div class="row text-center">
+                <button class="btn btn-outline-*" id="formBtn" type="submit">Send</button>
+            </div>
+            <div class="row text-center">
+                <a href="www.nicholasmcginnis.com">www.NicholasMcGinnis.com</a>
+            </div>
+        </form>
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
