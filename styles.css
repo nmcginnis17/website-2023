@@ -10,12 +10,12 @@ body {
 
 .header {
     background-image: url("images/office.JPG");
+    background-size: cover;
     height: 80vh;
 }
 
 
 /***** NAV *****/
-
 .nav-item {
     padding: 1rem 2rem;
 }
@@ -46,6 +46,7 @@ body {
     font-size: 4rem;
     font-family: 'Cantarell', sans-serif;
     padding-top: 10rem;
+    animation: Fade_In 0.75s ease-in;
 }
 
 .hero h3 {
@@ -111,14 +112,27 @@ body {
 
 
 /***** ABOUT *****/
+.workTogether {
+    position: relative;
+    display: grid;
+}
+
+.about-text h3 {
+    text-align: left;
+    margin: 0;
+    position: relative;
+    display: grid;
+    padding: 2rem;
+}
+
 .about-text p {
     text-align: left;
     margin: 0;
     position: relative;
     display: grid;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    top: 25%;
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
     padding: 2rem;
 }
 
@@ -236,6 +250,15 @@ form .btn:hover {
     }
     100% {
         transform: translateY(0);
+    }
+}
+
+@keyframes Fade_In {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }
 
