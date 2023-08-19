@@ -80,6 +80,16 @@ body {
     box-shadow: 0px 5px 5px #888;
 }
 
+.card1 {
+    animation: Slide_Up 0.5s ease-in;
+}
+.card2 {
+    animation: Slide_Up 0.75s ease-in;
+}
+.card3 {
+    animation: Slide_Up 1.0s ease-in;
+}
+
 .card-header {
     position: relative;
     display: flex;
@@ -216,4 +226,27 @@ form .btn:hover {
 
 .form .btn:visited {
     color: #000;
+}
+
+
+/***** ANIMATION *****/
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(300px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.box {
+    transform: translateY(300px);
+    opacity: 0;
+    transition: transform 0.5s ease;
+}
+
+.box.show {
+    transform: translateY(0);
+    opacity: 1;
+    transition: opacity 0.4s ease-in;
 }
