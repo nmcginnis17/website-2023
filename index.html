@@ -8,7 +8,7 @@
     <!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Cantarell:700i|Raleway" rel="stylesheet">
 	<script src="https://use.fontawesome.com/aa5b144add.js"></script>
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
@@ -26,13 +26,13 @@
         <nav>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#projectsSection">Projects</a>
+                    <a class="nav-link" href="#latestProjectsSection">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#aboutSection">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contactSection">Hire</a>
+                    <a class="nav-link" href="#contactSection">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -40,11 +40,11 @@
         <div class="hero">
             <h1>Nicholas McGinnis</h1>
             <h3>iOS App & Web Developer</h3>
-            <a href=""><button type="button" class="btn btn-outline-*">View Projects</button></a>
+            <a href="https://www.sinnigmedia.com" target="_blank"><button type="button" class="btn btn-outline-*">View More Projects</button></a>
         </div>
     </section>
 
-    <section class="project-highlights" id="projectsSection">
+    <section class="project-highlights" id="latestProjectsSection">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card card1 h-100">
@@ -94,6 +94,63 @@
         </div>
     </section>
 
+    <section id="projectSection">
+        <div class="box container text-center">
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col horizontal-app-img">
+                    <img src="images/PuzzleTimerWeb.webp" alt="Puzzle Cube Speed Timer screen shot on iOS">
+                </div>
+                <div class="col about-text">
+                    <div class="horizontal-about-project">
+                        <h3>Puzzle Cube Speed Timer</h3>
+                        <p>Puzzle Cube Speed Timer apps interface is built using UIKit. Utilizing UIButtons to start/stop the timer.
+                            Upon stop of the timer, the time is recorded on to a UITableView which show your previous compleation times.
+                            Next to the UITableView displays data from your solve times. This data show fastest solve time, as well as average solve time.
+                            Generate random scramble algorithms, as well as select from multiple puzzle sizes. Data showed on the stats screen 
+                            is dependent on the puzzle size selected.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box container-fluid project2">
+            <div class="container text-center">
+                <div class="row row-cols-1 row-cols-sm-2">
+                    <div class="col vertical-app-img">
+                        <img src="images/HMTMain.JPG" alt="Horror Movie Trivia app main screen, screen shot on iOS">
+                    </div>
+                    <div class="col about-text">
+                        <div class="vertical-about-project">
+                            <h3>Horror Movie Trivia</h3>
+                            <p>Horror Movie Trivia is a game I created using UIKit. Each new question enables the 30 second timer to restart.
+                                If you get three incorrect answer you're dead; but guess as fast as you can to get the most points. Send a challenge your 
+                                friends using the share feature.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box container text-center">
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col vertical-app-img">
+                    <img src="images/indexedScreenShot.png" alt="Indexed Flash Cards Maker screen shot on iOS">
+                </div>
+                <div class="col about-text">
+                    <div class="vertical-about-project">
+                        <h3>Indexed Flash Cards Maker</h3>
+                        <p>Indexed Flash Cards Maker was built using UIKit and a UICollectionView. Users can easily add new
+                            categories (decks) to seperate their study subjects. When reviewing each subject, questions are asked in 
+                            a randomized order ensuring that the user learns the material, not just remember the answers in order they are asked.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="box" id="aboutSection">
         <div class="container text-center">
             <div class="row row-cols-1 row-cols-sm-2">
@@ -108,13 +165,31 @@
                 </div>
                 <div class="col about-img">
                     <img src="images/nickPhoto.JPG" alt="Image of Nick McGinnis">
+                    <nav class="about-nav">
+                        <ul class="nav justify-content-center">
+                            <li class="about-nav-item">
+                                <a class="about-nav-link" href="https://github.com/nmcginnis17" target="_blank">
+                                    <i class="fa-brands fa-github fa-2xl"></i>
+                                </a>
+                            </li>
+                            <li class="about-nav-item">
+                                <a class="about-nav-link" href="https://www.linkedin.com/in/nicholas-mcginnis-595838112" target="_blank">
+                                    <i class="fab fa-linkedin fa-2xl"></i>
+                                </a>
+                            <li class="about-nav-item">
+                                <a class="about-nav-link" href="https://x.com/nmcginnis17" target="_blank">
+                                    <i class="fa-brands fa-x-twitter fa-2xl"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="box" id="contactSection">
-        <div class="container-fluid text-center">
+        <div class="container text-center">
             <h2 class="sectionTitle">Get In Contact</h2>
             <hr class="underline">
         </div>
