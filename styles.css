@@ -16,7 +16,7 @@ body {
 
 /***** NAV *****/
 .nav-item {
-    padding: 1rem 2rem;
+    padding: 1rem 1.5rem;
 }
 
 .nav-item a {
@@ -40,7 +40,7 @@ body {
 .hero h1 {
     font-size: 4rem;
     font-family: 'Cantarell', sans-serif;
-    padding-top: 10rem;
+    padding-top: 8rem;
     animation: Fade_In 0.75s ease-in;
 }
 
