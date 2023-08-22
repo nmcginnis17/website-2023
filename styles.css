@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-image: url("images/office.JPG");
+    background-image: url("images/office.webp");
     background-size: cover;
     height: 80vh;
 }
@@ -125,6 +125,7 @@ body {
 }
 
 .vertical-app-img img {
+    border-radius: 10px;
     display: inline-flex;
     position: relative;
     height: 25rem;
