@@ -8,34 +8,35 @@
     <title>Nicholas McGinnis - iOS App & Web Developer</title>
 
     <!-- Schema.org markup for Google+ -->
-   <meta itemprop="name" content="Nicholas McGinnis">
-   <meta itemprop="description" content="iOS App & Web Developer">
+    <meta itemprop="name" content="Nicholas McGinnis">
+    <meta itemprop="description" content="iOS App & Web Developer">
 
-   <!-- Twitter Card Data -->
-   <meta name="twitter:card" content="summary_large_image">
-   <meta name="twitter:site" content="@publisher_handle">
-   <meta name="twitter:title" content="Nicholas McGinnis">
-   <meta name="twitter:description" content="iOS App & Web Developer">
-   <meta name="twitter:creator" content="@author_handle">
-   <!-- Twitter summary card with large image must be at least 280x150px -->
-   <meta name="twitter:image:src" content="">
+    <!-- Twitter Card Data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@publisher_handle">
+    <meta name="twitter:title" content="Nicholas McGinnis">
+    <meta name="twitter:description" content="iOS App & Web Developer">
+    <meta name="twitter:creator" content="@author_handle">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="">
 
-   <!-- Open Graph Data -->
-   <meta property="og:title" content="Nicholas McGinnis">
-   <meta property="og:type" content="article">
-   <meta property="og:url" content="https://www.NicholasMcGinnis.com">
-   <meta property="og:image" content="">
-   <meta property="og:description" content="iOS App & Web Developer">
-   <meta property="og:site_name" content="Nicholas McGinnis">
+    <!-- Open Graph Data -->
+    <meta property="og:title" content="Nicholas McGinnis">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.NicholasMcGinnis.com">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="iOS App & Web Developer">
+    <meta property="og:site_name" content="Nicholas McGinnis">
+
+    <!-- Preload Image -->
+    <link rel="preload" as="image" href="https://nicholasmcginnis.com/images/office.webp">
 
     <!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Cantarell:700i|Raleway" rel="stylesheet">
-	<script src="https://use.fontawesome.com/aa5b144add.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell:700i|Raleway">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
-    <!-- <link rel="stylesheet" href="css/min.css"> -->
 
     <!-- Bootstrap 5.3.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +63,7 @@
 </head>
 <body>
 
-    <section class="header box" loading="lazy">
+    <section class="header box">
         <nav>
             <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -84,7 +85,7 @@
         </div>
     </section>
 
-    <section class="project-highlights" id="latestProjectsSection">
+    <section loading="lazy" class="project-highlights" id="latestProjectsSection">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
                 <div class="card card1 h-100">
@@ -134,11 +135,11 @@
         </div>
     </section>
 
-    <section id="projectSection">
+    <section loading="lazy" id="projectSection">
         <div class="box container text-center">
             <div class="row row-cols-1 row-cols-sm-2">
                 <div class="col horizontal-app-img">
-                    <img src="images/PuzzleTimerWeb.webp" alt="Puzzle Cube Speed Timer screen shot on iOS">
+                    <img loading="lazy" src="images/PuzzleTimerWeb.webp" alt="Puzzle Cube Speed Timer screen shot on iOS">
                 </div>
                 <div class="col about-text">
                     <div class="horizontal-about-project">
@@ -159,7 +160,7 @@
             <div class="container text-center">
                 <div class="row row-cols-1 row-cols-sm-2">
                     <div class="col vertical-app-img">
-                        <img src="images/HMTMain.webp" alt="Horror Movie Trivia app main screen, screen shot on iOS">
+                        <img loading="lazy" src="images/HMTMain.webp" alt="Horror Movie Trivia app main screen, screen shot on iOS">
                     </div>
                     <div class="col about-text">
                         <div class="vertical-about-project">
@@ -178,7 +179,7 @@
         <div class="box container text-center">
             <div class="row row-cols-1 row-cols-sm-2">
                 <div class="col vertical-app-img">
-                    <img src="images/indexedScreenShot.webp" alt="Indexed Flash Cards Maker screen shot on iOS">
+                    <img loading="lazy" src="images/indexedScreenShot.webp" alt="Indexed Flash Cards Maker screen shot on iOS">
                 </div>
                 <div class="col about-text">
                     <div class="vertical-about-project">
@@ -197,7 +198,7 @@
             <div class="container text-center">
                 <div class="row row-cols-1 row-cols-sm-2">
                     <div class="col vertical-app-img">
-                        <img src="images/taskpro85.webp" alt="2Do Task Manager screen shot on iOS">
+                        <img loading="lazy" src="images/taskpro85.webp" alt="2Do Task Manager screen shot on iOS">
                     </div>
                     <div class="col about-text">
                         <div class="vertical-about-project">
@@ -215,7 +216,7 @@
         <div class="box container text-center">
             <div class="row row-cols-1 row-cols-sm-2">
                 <div class="col vertical-app-img">
-                    <img src="images/MoneyBuddySS.webp" alt="Money Buddy Expense Tracker screen shot on iOS">
+                    <img loading="lazy" src="images/MoneyBuddySS.webp" alt="Money Buddy Expense Tracker screen shot on iOS">
                 </div>
                 <div class="col about-text">
                     <div class="vertical-about-project">
@@ -232,7 +233,7 @@
         </div>
     </section>
 
-    <section class="box" id="aboutSection">
+    <section loading="lazy" class="box" id="aboutSection">
         <div class="container text-center">
             <div class="row row-cols-1 row-cols-sm-2">
                 <div class="col about-text">
@@ -245,20 +246,20 @@
                     </div>
                 </div>
                 <div class="col about-img">
-                    <img src="images/nickPhoto.JPG" alt="Image of Nick McGinnis">
+                    <img loading="lazy" src="images/nickPhoto.JPG" alt="Image of Nick McGinnis">
                     <nav class="about-nav">
                         <ul class="nav justify-content-center">
                             <li class="about-nav-item">
-                                <a class="about-nav-link" href="https://github.com/nmcginnis17" target="_blank">
+                                <a class="about-nav-link" href="https://github.com/nmcginnis17" target="_blank" aria-label="View Nicholas McGinnis on GitHub">
                                     <i class="fa-brands fa-github fa-2xl"></i>
                                 </a>
                             </li>
                             <li class="about-nav-item">
-                                <a class="about-nav-link" href="https://www.linkedin.com/in/nicholas-mcginnis-595838112" target="_blank">
+                                <a class="about-nav-link" href="https://www.linkedin.com/in/nicholas-mcginnis-595838112" target="_blank" aria-label="View Nicholas McGinnis on LinkedIn">
                                     <i class="fab fa-linkedin fa-2xl"></i>
                                 </a>
                             <li class="about-nav-item">
-                                <a class="about-nav-link" href="https://x.com/nmcginnis17" target="_blank">
+                                <a class="about-nav-link" href="https://x.com/nmcginnis17" target="_blank" aria-label="View Nicholas McGinnis on X">
                                     <i class="fa-brands fa-x-twitter fa-2xl"></i>
                                 </a>
                             </li>
@@ -269,7 +270,7 @@
         </div>
     </section>
 
-    <section class="box" id="contactSection">
+    <section loading="lazy" class="box" id="contactSection">
         <div class="container text-center">
             <h2 class="sectionTitle">Get In Contact</h2>
             <hr class="underline">
@@ -305,7 +306,6 @@
         </form>
     </section>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
+    <script defer src="scripts.js"></script>
 </body>
 </html>
